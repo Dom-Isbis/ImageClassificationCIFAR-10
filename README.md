@@ -8,14 +8,13 @@ In this project, the goal is to classify images from the CIFAR-10 dataset into 1
    - Kenny Luo-Li, 40237402
 
 ---
-
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [File descriptions](#file-descriptions)
 3. [Setup](#setup)
 4. [Running the code](#running-the-code)
+   
 ---
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -25,7 +24,30 @@ Before you begin, ensure you have the following installed:
 - [git](https://git-scm.com/)
 
 ---
+## File descriptions
 
+This section explains the purpose of the main files and folders in the repository:
+
+```plaintext
+ImageClassificationCIFAR-10/
+├── _pycache_/                                          # Folder containing compiled bytecode
+├── data/                                               # Folder for CIFAR-10 dataset (Please install it locally by following the project guidelines)
+├── models/                                             # Contains saved models 
+│   ├── cnn_vgg11.pkl        
+│   ├── dt_scratch_25.pkl    
+│   ├── ...               
+├── predictions/                                        # Contains saved predictions
+│   ├── y_predictions_cnn_vgg11.npy        
+│   ├── y_predictions_dt_scratch_25.npy    
+│   ├── ...  
+├── COMP472_CIFAR_10_Image_Classification.ipynb         # Main jupyter notebook to process data, train and evaluate all models, and show confusion matrices and classfication reports
+├── file_processing.py                                  # Contains helper functions for I/O file processing such as Save/Load functions
+├── requirements.txt                                    # List of dependencies for the project
+├── README.md                                           # Documentation for the project
+├── .gitattributes                                      # Version control configs
+├── .gitignore                                          # Version control configs
+```
+---
 ## Setup
 
 ### Step 1: Clone the Repository with SSH
@@ -67,31 +89,6 @@ After activating the virtual environment, install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
----
-
-## File descriptions
-
-This section explains the purpose of the main files and folders in the repository:
-
-```plaintext
-ImageClassificationCIFAR-10/
-├── _pycache_/                                          # Folder containing compiled bytecode
-├── data/                                               # Folder for CIFAR-10 dataset (Please install it locally by following the project guidelines)
-├── models/                                             # Contains saved models 
-│   ├── cnn_vgg11.pkl        
-│   ├── dt_scratch_25.pkl    
-│   ├── ...               
-├── predictions/                                        # Contains saved predictions
-│   ├── y_predictions_cnn_vgg11.npy        
-│   ├── y_predictions_dt_scratch_25.npy    
-│   ├── ...  
-├── COMP472_CIFAR_10_Image_Classification.ipynb         # Main jupyter notebook to process data, train and evaluate all models, and show confusion matrices and classfication reports
-├── file_processing.py                                  # Contains helper functions for I/O file processing such as Save/Load functions
-├── requirements.txt                                    # List of dependencies for the project
-├── README.md                                           # Documentation for the project
-├── .gitattributes                                      # Version control configs
-├── .gitignore                                          # Version control configs
 ```
 ---
 ## Running the code
