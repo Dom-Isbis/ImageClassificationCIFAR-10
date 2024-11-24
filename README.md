@@ -94,35 +94,6 @@ ImageClassificationCIFAR-10/
 ├── .gitattributes                                      # Version control configs
 ├── .gitignore                                          # Version control configs
 ```
-
-### Detailed Descriptions
-
-- **`data/`**: 
-  - This folder is automatically created when downloading the CIFAR-10 dataset. It contains the training and test datasets.
-  
-- **`models/`**: 
-  - Contains Python scripts implementing the AI models:
-    - `naive_bayes.py`: Builds a Gaussian Naive Bayes model for CIFAR-10 image classification.
-    - `decision_tree.py`: Implements a decision tree classifier to distinguish between CIFAR-10 classes.
-    - `mlp.py`: Implements a Multi-Layer Perceptron (MLP), a simple feed-forward neural network.
-    - `cnn.py`: Implements a Convolutional Neural Network (CNN) for advanced image classification tasks.
-
-- **`results/`**: 
-  - Stores outputs from the model evaluations, such as:
-    - Accuracy reports
-    - Confusion matrices
-    - Training logs
-
-- **`main.py`**: 
-  - The primary script that integrates dataset preprocessing, model training, evaluation, and metric visualization.
-
-- **`requirements.txt`**: 
-  - Lists the Python libraries and versions needed to run the project.
-
-- **`README.md`**: 
-  - The file you're reading now, explaining the project structure and usage.
-
----
 ---
 ## Running the code
 
