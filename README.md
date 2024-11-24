@@ -78,7 +78,7 @@ This section explains the purpose of the main files and folders in the repositor
 ```plaintext
 ImageClassificationCIFAR-10/
 ├── _pycache_/                                          # Folder containing compiled bytecode
-├── data/                                               # Folder for CIFAR-10 dataset (Please ensure that you install it locally by following the project instruction guidelines from the official Final Project PDF)
+├── data/                                               # Folder for CIFAR-10 dataset (Please install it locally by following the project guidelines)
 ├── models/                                             # Contains saved models 
 │   ├── cnn_vgg11.pkl        
 │   ├── dt_scratch_25.pkl    
@@ -87,7 +87,7 @@ ImageClassificationCIFAR-10/
 │   ├── y_predictions_cnn_vgg11.npy        
 │   ├── y_predictions_dt_scratch_25.npy    
 │   ├── ...  
-├── COMP472_CIFAR_10_Image_Classification.ipynb         # Main jupyter notebook to train and evaluate all models
+├── COMP472_CIFAR_10_Image_Classification.ipynb         # Main jupyter notebook to process data, train and evaluate all models, and show confusion matrices and classfication reports
 ├── file_processing.py                                  # Contains helper functions for I/O file processing such as Save/Load functions
 ├── requirements.txt                                    # List of dependencies for the project
 ├── README.md                                           # Documentation for the project
