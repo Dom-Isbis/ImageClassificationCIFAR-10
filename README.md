@@ -9,7 +9,6 @@ In this project, the goal is to classify images from the CIFAR-10 dataset into 1
 
 ---
 
-This format is clear and well-structured, perfect for a `README.md`. Let me know if you need further adjustments!
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [File descriptions](#file-descriptions)
