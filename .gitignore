@@ -1,6 +1,2 @@
 venv/
 data/
-models/**
-predictions/**
-models/
-predictions/
