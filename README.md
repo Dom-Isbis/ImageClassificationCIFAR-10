@@ -108,3 +108,10 @@ Second, ensure that a valid kernel is selected to run the jupyter notebook (ipyn
   3. Helper Functions (all cells)
   4. Naive Bayes, Decision Tree, Multi-Layer Perceptron, CNN - VGG11 (all cells)
   5. Analysis Report (all cells)
+
+##### To save new predictions on empty models/ & predictions/, please execute all cells under the following sections, in order:
+  1. Imports & Configs (all cells)
+  2. Dataset Overview (all cells)
+  3. Helper Functions (first 2 cells only)
+  4. Naive Bayes, Decision Tree, Multi-Layer Perceptron, CNN - VGG11 (all cells)
+  5. Analysis Report (all cells)
